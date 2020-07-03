@@ -2,7 +2,8 @@ myWebsite:
   component: "@serverless/tencent-website"
   inputs:
     origin:
-      origins: "*"
+      origins:
+        - shanx.jayken.cn
       originType: cos
       originPullProtocol: http
     code:
