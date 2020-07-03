@@ -1,6 +1,10 @@
 myWebsite:
   component: "@serverless/tencent-website"
   inputs:
+    origin:
+      origins: "*"
+      originType: cos
+      originPullProtocol: http
     code:
       src: ./dist
       index: index.html
