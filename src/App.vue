@@ -32,7 +32,7 @@ export default class App extends Vue {}
   justify-content: space-around;
   align-items: center;
   &-item {
-    width: 45%;
+    width: 46%;
     margin-top: 2%;
   }
 }
