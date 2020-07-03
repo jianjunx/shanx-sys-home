@@ -4,8 +4,6 @@ myWebsite:
     origin:
       origins:
         - shanx.jayken.cn
-      originType: cos
-      originPullProtocol: http
     code:
       src: ./dist
       index: index.html
