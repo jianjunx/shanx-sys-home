@@ -1,8 +1,12 @@
 import Vue from "vue";
 import App from "./App.vue";
+import VCharts from "v-charts";
+import elementui from "./elementui";
+import "./styles/index.scss";
 
+elementui(Vue);
 Vue.config.productionTip = false;
-
+Vue.use(VCharts);
 /**
  * bootstrap 只会在微应用初始化的时候调用一次，下次微应用重新进入时会直接调用 mount 钩子，不会再重复触发 bootstrap。
  * 通常我们可以在这里做一些全局变量的初始化，比如不会在 unmount 阶段被销毁的应用级别的缓存等。
